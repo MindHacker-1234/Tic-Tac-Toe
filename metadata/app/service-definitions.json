@@ -1,0 +1,255 @@
+{
+  "serviceDefs" : {
+    "SecurityController_getLoginTime" : {
+      "id" : "SecurityController_getLoginTime",
+      "crudOperationId" : null,
+      "service" : "securityService",
+      "controller" : "SecurityController",
+      "operationType" : null,
+      "type" : "com.wavemaker.commons.wrapper.StringWrapper",
+      "wmServiceOperationInfo" : {
+        "name" : "getLoginTime",
+        "methodType" : "get",
+        "relativePath" : "/security/user/login_time",
+        "directPath" : null,
+        "httpMethod" : "get",
+        "parameters" : [ ],
+        "definitions" : { },
+        "produces" : null,
+        "consumes" : null,
+        "proxySettings" : {
+          "web" : true,
+          "mobile" : true,
+          "withCredentials" : false
+        },
+        "securityDefinitions" : [ ]
+      }
+    },
+    "SecurityController_getSecurityInfo" : {
+      "id" : "SecurityController_getSecurityInfo",
+      "crudOperationId" : null,
+      "service" : "securityService",
+      "controller" : "SecurityController",
+      "operationType" : null,
+      "type" : "com.wavemaker.runtime.security.model.SecurityInfo",
+      "wmServiceOperationInfo" : {
+        "name" : "getSecurityInfo",
+        "methodType" : "get",
+        "relativePath" : "/security/info",
+        "directPath" : null,
+        "httpMethod" : "get",
+        "parameters" : [ ],
+        "definitions" : { },
+        "produces" : null,
+        "consumes" : null,
+        "proxySettings" : {
+          "web" : true,
+          "mobile" : true,
+          "withCredentials" : false
+        },
+        "securityDefinitions" : [ ]
+      }
+    },
+    "SecurityController_getAccessToken" : {
+      "id" : "SecurityController_getAccessToken",
+      "crudOperationId" : null,
+      "service" : "securityService",
+      "controller" : "SecurityController",
+      "operationType" : null,
+      "type" : "com.wavemaker.runtime.security.token.Token",
+      "wmServiceOperationInfo" : {
+        "name" : "getAccessToken",
+        "methodType" : "get",
+        "relativePath" : "/security/token",
+        "directPath" : null,
+        "httpMethod" : "get",
+        "parameters" : [ ],
+        "definitions" : { },
+        "produces" : null,
+        "consumes" : null,
+        "proxySettings" : {
+          "web" : true,
+          "mobile" : true,
+          "withCredentials" : false
+        },
+        "securityDefinitions" : [ ]
+      }
+    },
+    "SecurityController_getUserId" : {
+      "id" : "SecurityController_getUserId",
+      "crudOperationId" : null,
+      "service" : "securityService",
+      "controller" : "SecurityController",
+      "operationType" : null,
+      "type" : "com.wavemaker.commons.wrapper.StringWrapper",
+      "wmServiceOperationInfo" : {
+        "name" : "getUserId",
+        "methodType" : "get",
+        "relativePath" : "/security/user/userid",
+        "directPath" : null,
+        "httpMethod" : "get",
+        "parameters" : [ ],
+        "definitions" : { },
+        "produces" : null,
+        "consumes" : null,
+        "proxySettings" : {
+          "web" : true,
+          "mobile" : true,
+          "withCredentials" : false
+        },
+        "securityDefinitions" : [ ]
+      }
+    },
+    "SecurityController_isAuthenticated" : {
+      "id" : "SecurityController_isAuthenticated",
+      "crudOperationId" : null,
+      "service" : "securityService",
+      "controller" : "SecurityController",
+      "operationType" : null,
+      "type" : "com.wavemaker.commons.wrapper.BooleanWrapper",
+      "wmServiceOperationInfo" : {
+        "name" : "isAuthenticated",
+        "methodType" : "get",
+        "relativePath" : "/security/user/authenticated",
+        "directPath" : null,
+        "httpMethod" : "get",
+        "parameters" : [ ],
+        "definitions" : { },
+        "produces" : null,
+        "consumes" : null,
+        "proxySettings" : {
+          "web" : true,
+          "mobile" : true,
+          "withCredentials" : false
+        },
+        "securityDefinitions" : [ ]
+      }
+    },
+    "SecurityController_isSecurityEnabled" : {
+      "id" : "SecurityController_isSecurityEnabled",
+      "crudOperationId" : null,
+      "service" : "securityService",
+      "controller" : "SecurityController",
+      "operationType" : null,
+      "type" : "com.wavemaker.commons.wrapper.StringWrapper",
+      "wmServiceOperationInfo" : {
+        "name" : "isSecurityEnabled",
+        "methodType" : "get",
+        "relativePath" : "/security/enabled",
+        "directPath" : null,
+        "httpMethod" : "get",
+        "parameters" : [ ],
+        "definitions" : { },
+        "produces" : null,
+        "consumes" : null,
+        "proxySettings" : {
+          "web" : true,
+          "mobile" : true,
+          "withCredentials" : false
+        },
+        "securityDefinitions" : [ ]
+      }
+    },
+    "SecurityController_getUsername" : {
+      "id" : "SecurityController_getUsername",
+      "crudOperationId" : null,
+      "service" : "securityService",
+      "controller" : "SecurityController",
+      "operationType" : null,
+      "type" : "com.wavemaker.commons.wrapper.StringWrapper",
+      "wmServiceOperationInfo" : {
+        "name" : "getUsername",
+        "methodType" : "get",
+        "relativePath" : "/security/user/username",
+        "directPath" : null,
+        "httpMethod" : "get",
+        "parameters" : [ ],
+        "definitions" : { },
+        "produces" : null,
+        "consumes" : null,
+        "proxySettings" : {
+          "web" : true,
+          "mobile" : true,
+          "withCredentials" : false
+        },
+        "securityDefinitions" : [ ]
+      }
+    },
+    "SecurityController_ssoLogin" : {
+      "id" : "SecurityController_ssoLogin",
+      "crudOperationId" : null,
+      "service" : "securityService",
+      "controller" : "SecurityController",
+      "operationType" : null,
+      "type" : "object",
+      "wmServiceOperationInfo" : {
+        "name" : "ssoLogin",
+        "methodType" : "get",
+        "relativePath" : "/security/ssologin",
+        "directPath" : null,
+        "httpMethod" : "get",
+        "parameters" : [ ],
+        "definitions" : { },
+        "produces" : null,
+        "consumes" : null,
+        "proxySettings" : {
+          "web" : true,
+          "mobile" : true,
+          "withCredentials" : false
+        },
+        "securityDefinitions" : [ ]
+      }
+    },
+    "SecurityController_getLoggedInUser" : {
+      "id" : "SecurityController_getLoggedInUser",
+      "crudOperationId" : null,
+      "service" : "securityService",
+      "controller" : "SecurityController",
+      "operationType" : null,
+      "type" : "com.wavemaker.runtime.security.WMCurrentUser",
+      "wmServiceOperationInfo" : {
+        "name" : "getLoggedInUser",
+        "methodType" : "get",
+        "relativePath" : "/security/user",
+        "directPath" : null,
+        "httpMethod" : "get",
+        "parameters" : [ ],
+        "definitions" : { },
+        "produces" : null,
+        "consumes" : null,
+        "proxySettings" : {
+          "web" : true,
+          "mobile" : true,
+          "withCredentials" : false
+        },
+        "securityDefinitions" : [ ]
+      }
+    },
+    "SecurityController_getUserRoles" : {
+      "id" : "SecurityController_getUserRoles",
+      "crudOperationId" : null,
+      "service" : "securityService",
+      "controller" : "SecurityController",
+      "operationType" : null,
+      "type" : "array",
+      "wmServiceOperationInfo" : {
+        "name" : "getUserRoles",
+        "methodType" : "get",
+        "relativePath" : "/security/user/roles",
+        "directPath" : null,
+        "httpMethod" : "get",
+        "parameters" : [ ],
+        "definitions" : { },
+        "produces" : null,
+        "consumes" : null,
+        "proxySettings" : {
+          "web" : true,
+          "mobile" : true,
+          "withCredentials" : false
+        },
+        "securityDefinitions" : [ ]
+      }
+    }
+  },
+  "securityDefinitions" : { }
+}

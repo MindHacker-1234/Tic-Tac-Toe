@@ -1,0 +1,39 @@
+{
+    "expo": {
+        "androidStatusBar": {
+            "backgroundColor": "#000000",
+            "translucent": false,
+            "barStyle": "dark-content"
+        },
+        "name": "Assignment1",
+        "slug": "Assignment1",
+        "version": "1.0.0",
+        "jsEngine": "hermes",
+        "orientation": "portrait",
+        "icon": "./assets/resources/assets/icon.png",
+        "splash": {
+            "image": "./assets/resources/assets/splash.png",
+            "resizeMode": "cover"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "backgroundColor": "#007bff",
+            "supportsTablet": true,
+            "bundleIdentifier": "com.assignment1"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/resources/assets/icon.png"
+            },
+            "package": "com.assignment1"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        }
+    }
+}
